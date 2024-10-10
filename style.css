@@ -176,7 +176,7 @@ body {
   }
   .second_area {
     grid-column: 1/7;
-    padding: 39px 39px 37px;
+    padding: 42px 39px 37px;
     border-radius: 0 0 0 10px;
   }
   .second_area h2 {
@@ -187,7 +187,7 @@ body {
   }
   .third_area {
     grid-column: 7/-1;
-    padding: 35px 41px;
+    padding: 38px 41px;
     border-radius: 0 0 10px 0;
   }
   .third_area h2 {
