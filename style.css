@@ -39,6 +39,7 @@ body {
 }
 .main_area {
   min-width: 375px;
+  height: auto;
   background: var(--lightGray);
   padding: 10%;
   margin: 0 auto;
@@ -46,6 +47,7 @@ body {
 
 .content_area {
   min-width: 311px;
+  height: 100%;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(128, 128, 128, 0.3);
@@ -150,6 +152,7 @@ body {
   }
   .content_area {
     max-width: 635px;
+
     display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
@@ -202,5 +205,12 @@ body {
   .main_area {
     flex-basis: 1440px;
     height: 800px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content_area {
+    height: auto;
   }
 }
